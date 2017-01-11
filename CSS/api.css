@@ -1,0 +1,146 @@
+@font-face {
+ font-family: AnotherDanger-Demo;
+ src: url(AnotherDanger-Demo.otf);
+ }
+
+/* ****************************************** BODY ********************************************** */
+
+body {
+	color: white;
+	font-family: 'Roboto'; 	
+	margin: 0;
+}
+
+/* ****************************************** HEADER ******************************************** */
+	
+#smallCont {
+	display: flex;
+	justify-content: center;
+	background-color: black;
+	width: 100%;
+	color: white;
+	letter-spacing: 15px;
+	font-family: AnotherDanger-Demo;
+	font-size: 30px;
+}
+
+/* ****************************************** CONTENT ******************************************** */
+
+#container {
+	display: flex;
+	flex-direction: row;
+	background-image: linear-gradient(#6A232E,#742733);
+	/* background-image:radial-gradient(rgba(15,101,133,0.1), rgba(7,80,107,0.1));*/
+	width: 75%;
+	margin-left: 11.5%;
+}
+
+#image {
+	background-repeat: no-repeat;
+	width: 300px;
+	height: 300px;
+	margin: 20px;
+	justify-content: flex-start;
+}
+
+#bio {
+	padding-left: 10px;
+	margin: 20px;
+	justify-content: center;
+	align-content: center;
+	width: 45%;
+	height: 300px;
+	overflow: scroll;
+	line-height: 1.5;
+}
+
+#stats {
+	background-color: #742733	;
+	/*background-image: radial-gradient(rgba(15,101,133,0.1), rgba(7,80,107,0.1));*/
+	width: 73.45%;
+	margin-left: 11.5%;
+	padding-left: 20px;
+}
+
+/*#tracks {
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	justify-content: space-around;
+	width: 73.4%;
+	margin-left: 11.5%;
+	padding-left: 20px;
+	color: black;
+}*/
+
+#similar {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	width: 73.45%;
+	margin-left: 11.5%;
+	padding-left: 20px;
+	background-image: linear-gradient(#742733, #4D1A22);
+}
+
+h1 {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: space-around;
+}
+
+#name, #name2, #name3 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-content: center
+	color: white;
+}
+
+#img, #img2, #img3 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-content: center;
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 100px;
+	margin: 20px;
+	border-radius: 100%;
+}
+
+#tracks {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-content: center;
+	width: 73.4%;
+	margin-left: 11.5%;
+	padding-left: 20px;
+}
+/* ****************************************** FOOTER ******************************************** */
+
+#social {
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	justify-content: center; 
+	width: 98.5%;
+	padding: 10px;	
+	background-color: black;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+i {
+	padding-left: 20px;
+}
+
+i:hover {
+	background-color: #00C2FF;
+}
